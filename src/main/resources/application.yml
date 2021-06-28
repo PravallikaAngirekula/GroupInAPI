@@ -1,0 +1,35 @@
+
+server:
+  port: 8222
+
+
+#spring: 
+#  jpa:
+#    database: postgresql
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      
+#  datasource:
+#    platform: postgres
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/sampledb
+#    username: postgres
+#    password: admin123
+
+#    hibernate.ddl-auto: create-drop
+    
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://65.0.135.92:3306/ejabberd
+    username: appuser
+    password: Groupin@123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+#    database: mysql
+    
+    
+
